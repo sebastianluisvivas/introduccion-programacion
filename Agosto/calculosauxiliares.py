@@ -1,4 +1,2 @@
-a=5
-b=10
-c=10/5
-print(c)
+h=round(154.55568, 3)
+print(h)
