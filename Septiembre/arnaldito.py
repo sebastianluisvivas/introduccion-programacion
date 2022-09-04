@@ -51,7 +51,7 @@ if(pronostico<65):
                 else:
                     print("No le alcanza")
             ##actualizado
-
+            ##actualizado2
 
 
 
