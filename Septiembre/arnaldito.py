@@ -50,7 +50,7 @@ if(pronostico<65):
                     print("Le sobra de dinero:", resto)
                 else:
                     print("No le alcanza")
-            
+            ##actualizado
 
 
 
