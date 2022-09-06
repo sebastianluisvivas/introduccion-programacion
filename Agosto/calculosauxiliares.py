@@ -1,2 +1,2 @@
-h=round(154.55568, 3)
-print(h)
+p=20%2
+print(p)
