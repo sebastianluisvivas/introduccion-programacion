@@ -78,11 +78,13 @@
 
 # Escribir un programa que calcule la siguiente serie, teniendo en cuenta que n es un número entero introducido por teclado. Si n=5  la serie sería:
 
-n=int(input("Ingrese la cantidad de términos: "))
-suma=0
-for i in range(1,n+1):
-    if (i%2==0):
-        suma=suma-i/(3**(i-1))
-    else:
-        suma=suma+i/(3**(i-1))
-print("La suma de los",n,"primeros términos es",suma)
+# n=int(input("Ingrese la cantidad de términos: "))
+# suma=0
+# for i in range(1,n+1):
+#     if (i%2==0):
+#         suma=suma-i/(3**(i-1))
+#     else:
+#         suma=suma+i/(3**(i-1))
+# print("La suma de los",n,"primeros términos es",suma)
+
+
