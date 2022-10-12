@@ -28,6 +28,7 @@ lista=[1,2,3,4,5] """
 
 #Defnir una función llamada interseccion que tome dos listas sin repetidos y devuelva una nueva lista que contenga sólamente aquellos elementos que estén ambas listas.
 
+# _________ Hecho por la profe (bien)
 def esta(lista,e):
     for elemento in lista:
         if elemento ==e:
