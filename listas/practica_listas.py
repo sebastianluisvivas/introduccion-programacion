@@ -35,3 +35,49 @@ print(animales)
 print("El cuarto animal es:", pedir_animal)
 """
 
+
+# _____________       3      __________________
+
+
+#Ejercicio 3 F
+#Definir una función llamada divisores que tome un entero y devuelva la lista de divisores de ese entero.
+"""""
+def divisores (entero):           # entero es el parametro
+    list_diventeros = []
+    contador = 0
+    for divisor in range(1,entero+1):
+        if (entero % divisor == 0):
+            #print(divisor, "es divisor")
+            contador = contador+1
+            list_diventeros.append(divisor)
+    return(list_diventeros)
+"PP"    
+
+entero = int(input("Ingrese un número: "))
+
+print("Los divisores de",entero, "son: ",divisores(entero))               # entero es argumento 
+"""""
+
+
+
+
+# _____________       4      __________________
+#Ejercicio 4 F
+
+#Definir una función llamada laMasCorta que tome dos listas y devuelva la que tenga menos elementos. 
+# Si tienen igual cantidad, deberá devolver la primera.
+
+def laMasCorta(lista1,lista2):
+    if len(lista1) == len(lista2):
+        return("Ambas listas son iguales, se devuelve la primera: ",lista1)
+    else:
+        if len(lista1) < len(lista2):
+            return("La lista más corta es la primera",lista1)
+        else:
+            return("La lista más corta es la segunda",lista2)
+
+
+# PP
+lista1=[10,15,10,18,17,19,20,22,13,58,94,78,46,15,48,8,79,45,13]
+lista2=[12,19,15,46,48,78,45,81,99,100,15,45,64,84,79,51,644,48,78]
+print(laMasCorta(lista1,lista2))
